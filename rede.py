@@ -1,4 +1,4 @@
-/*
+#
 Esse código é um teste de modelagem de uma rede de difusão de massa em um sistema simples
 Para que um sistema seja de difusão, é necessário que, principalmente:
 
@@ -6,7 +6,7 @@ Para que um sistema seja de difusão, é necessário que, principalmente:
 - A matriz de adjacência deve ser composta por elementos <=1, por se tratar de uma rede de difusão
 - A somatória das colunas da matriz de adjacência deve ser <=1
 - As linhas n da matriz dizem respeito a quanto o elemento n transfere sua massa para os outros elementos  
-*/
+#
 
 Rede = [0,0,1,0] //Essa linha inicializa os elementos do sistema, com o terceiro elemento com massa 1
 
